@@ -21,8 +21,10 @@ const Card = () => {
       <motion.div
         style={{ x, y, rotateX, rotateY, z: 100 }}
         drag
+        
         dragElastic={0.18}
         dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
+        
         whileTap={{ cursor: "grabbing" }}
         className="w-[426px] min-h-[600px] bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px]  cursor-grab relative"
       >
